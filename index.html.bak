@@ -42,6 +42,6 @@
 <body>
     <div id="root"></div>
     <!-- This tag tells the build tool where to start -->
-    <script type="module" src="index.tsx"></script>
+    <script type="module" src="/index.tsx"></script>
 </body>
 </html>
