@@ -34,9 +34,14 @@ const Projects: React.FC = () => {
                   </li>
                 ))}
               </ul>
-              <button className="w-full py-3 bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium rounded-lg border border-white/5 transition-colors">
+              <a 
+                href={project.github} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-full py-3 bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium rounded-lg border border-white/5 transition-colors text-center block"
+              >
                 View Source on GitHub
-              </button>
+              </a>
             </div>
           </div>
         ))}

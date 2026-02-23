@@ -4,6 +4,7 @@ export interface Project {
   description: string;
   points: string[];
   tags: string[];
+  github?: string;
 }
 
 export interface Experience {

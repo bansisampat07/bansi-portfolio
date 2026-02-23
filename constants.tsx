@@ -4,13 +4,14 @@ import { Project, Experience, SkillCategory } from './types';
 export const PROJECTS: Project[] = [
   {
     title: "UART Module for Swarm Robotics",
-    description: "Designed a high-integrity UART transceiver facilitating communication between Artix-7 FPGA and ESP32 modules.",
+    description: "Designed a UART transceiver facilitating communication between Artix-7 FPGA and ESP32 modules.",
     points: [
-      "Verified data integrity via behavioral simulation in Xilinx Vivado.",
-      "Developed Verilog logic using a robust Finite State Machine (FSM) for error-free serial data transfer.",
+      "Verified working via behavioral simulation in Xilinx Vivado.",
+      "Developed Verilog logic using a Finite State Machine (FSM) for error-free serial data transfer.",
       "Created a self-checking testbench to validate baud rate timing and corner cases."
     ],
-    tags: ["Verilog", "FPGA", "Vivado", "FSM", "Hardware Design"]
+    tags: ["Verilog", "FPGA", "Vivado", "FSM", "Hardware Design"],
+    github: "https://github.com/bansisampat07"
   },
   {
     title: "Parameterized Arithmetic Logic Unit (ALU)",
@@ -20,13 +21,14 @@ export const PROJECTS: Project[] = [
       "Successfully validated critical corner cases through intensive waveform analysis.",
       "Optimized for high-speed computation on semiconductor architectures."
     ],
-    tags: ["VLSI", "RTL Coding", "Digital Logic", "Verilog HDL"]
+    tags: ["VLSI", "RTL Coding", "Digital Logic", "Verilog HDL"],
+    github: "https://github.com/bansisampat07"
   }
 ];
 
 export const EXPERIENCES: Experience[] = [
   {
-    role: "Technical Team Member (Founding)",
+    role: "Research and Documentation Head (Founding)",
     organization: "DJS MicroMinds (Official VLSI Club)",
     period: "Jan 2026 – Present",
     description: [
@@ -52,7 +54,7 @@ export const SKILLS: SkillCategory[] = [
   },
   {
     title: "Tools & Platforms",
-    skills: ["Xilinx Vivado", "FPGA (Artix-7)", "ESP32"]
+    skills: ["Xilinx Vivado", "FPGA (Artix-7)"]
   },
   {
     title: "Domain Knowledge",
