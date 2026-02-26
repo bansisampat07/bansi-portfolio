@@ -3,12 +3,12 @@ import React from 'react';
 
 const Footer: React.FC = () => {
   return (
-    <footer id="contact" className="py-20 px-6 border-t border-white/5 bg-slate-950">
+    <footer id="contact" className="py-20 px-6 border-t border-white/5">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-10">
         <div>
-          <h2 className="text-3xl font-bold mb-4">Let's <span className="gradient-text">Collaborate</span></h2>
+          <h2 className="text-3xl font-bold mb-4">Let's <span className="gradient-text">Connect</span></h2>
           <p className="text-slate-400 max-w-sm">
-            I'm currently looking for internships and hardware research opportunities. Reach out if you're building the future of AI hardware.
+            I'm currently looking for internships and hardware research opportunities. Reach out if you're building the future of semiconductor technology.
           </p>
         </div>
         
@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
       <div className="max-w-6xl mx-auto mt-20 pt-10 border-t border-white/5 text-center text-slate-500 text-sm">
-        <p>© 2026 Bansi Sampat. Designed for India AI Impact Summit.</p>
+        <p>© 2026 Bansi Sampat. All Rights Reserved.</p>
       </div>
     </footer>
   );
