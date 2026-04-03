@@ -5,24 +5,26 @@ const About: React.FC = () => {
   return (
     <section id="about" className="py-20 px-6">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-        <div className="relative group">
-          <div className="absolute -inset-4 bg-gradient-to-r from-sky-500 to-indigo-500 rounded-2xl blur opacity-25 group-hover:opacity-40 transition-opacity"></div>
-          <div className="relative glass p-8 rounded-2xl">
-            <h3 className="text-2xl font-bold mb-4 text-sky-400 flex items-center gap-3">
-              <span className="text-sky-500/50 font-mono text-lg">01.</span>
-              The Hardware Perspective
-            </h3>
-            <p className="text-slate-300 mb-6 leading-relaxed">
-              I am an Electronics & Telecommunication student with a deep passion for the silicon that powers modern technology. My focus is on VLSI design and RTL coding—building efficient architectures and digital systems that push the boundaries of hardware performance.
-            </p>
-            <div className="space-y-4">
-              <div className="flex items-center space-x-3">
-                <div className="w-2 h-2 rounded-full bg-sky-400"></div>
-                <span className="text-slate-400">Seeking 2026 Summer Internships</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <div className="w-2 h-2 rounded-full bg-sky-400"></div>
-                <span className="text-slate-400">Focused on Digital Logic & RTL Design</span>
+        <div>
+          <h2 className="text-3xl font-bold mb-8 flex items-center gap-3">
+            <span className="text-sky-500/50 font-mono text-lg">01.</span>
+            The Hardware Perspective
+          </h2>
+          <div className="relative group">
+            <div className="absolute -inset-4 bg-gradient-to-r from-sky-500 to-indigo-500 rounded-2xl blur opacity-25 group-hover:opacity-40 transition-opacity"></div>
+            <div className="relative glass p-8 rounded-2xl">
+              <p className="text-slate-300 mb-6 leading-relaxed">
+                I am an Electronics & Telecommunication student with a deep passion for the silicon that powers modern technology. My focus is on VLSI design and RTL coding—building efficient architectures and digital systems that push the boundaries of hardware performance.
+              </p>
+              <div className="space-y-4">
+                <div className="flex items-center space-x-3">
+                  <div className="w-2 h-2 rounded-full bg-sky-400"></div>
+                  <span className="text-slate-400">Seeking 2026 Summer Internships</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-2 h-2 rounded-full bg-sky-400"></div>
+                  <span className="text-slate-400">Focused on Digital Logic & RTL Design</span>
+                </div>
               </div>
             </div>
           </div>
