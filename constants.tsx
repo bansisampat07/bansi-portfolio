@@ -3,14 +3,14 @@ import { Project, Experience, SkillCategory } from './types';
 
 export const PROJECTS: Project[] = [
   {
-    title: "UART Module for Swarm Robotics",
-    description: "Designed a UART transceiver facilitating communication between Artix-7 FPGA and ESP32 modules.",
+    title: "FPGA-Controlled Swarm Robotics System for Disaster Search Operations",
+    description: "Architected a master-slave swarm system on a Digilent Basys3 FPGA coordinating 2 ESP32-based robot nodes via a gateway ESP32 over UART for wireless command relay.",
     points: [
-      "Verified working via behavioral simulation in Xilinx Vivado.",
-      "Developed Verilog logic using a Finite State Machine (FSM) for error-free serial data transfer.",
-      "Created a self-checking testbench to validate baud rate timing and corner cases."
+      "Implemented a frontier-based exploration algorithm in Verilog RTL, dynamically partitioning a 10×10 spatial grid into different zones to eliminate inter-robot collision and search redundancy.",
+      "Utilized True Dual-Port BRAM to construct and update a real-time spatial map, storing per-coordinate exploration status across the partitioned search zones.",
+      "Verified FPGA communication, grid mapping, and partitioning logic independently in Xilinx Vivado; full hardware integration with physical bots currently in progress."
     ],
-    tags: ["Verilog", "FPGA", "Vivado", "FSM", "Hardware Design"],
+    tags: ["Verilog", "FPGA", "RTL", "BRAM", "Vivado", "Swarm Robotics"],
     github: "https://github.com/bansisampat07"
   },
   {
@@ -79,3 +79,4 @@ export const CERTIFICATIONS = [
   { name: "CENSE Summer School (Semiconductor Fab)", org: "IISc Bengaluru", date: "June 2025" },
   { name: "Space Science & Satellite Tech", org: "ISRO", date: "July – Aug 2023" }
 ];
+
